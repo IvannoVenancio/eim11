@@ -3,12 +3,15 @@
 <head>
     
     <title>EIM11</title>
-    <style>
-        
-    </style>
 </head>
 <body>
-    <h1>Olá Mundo</h1>
-    <h2>Somos nós</h2>
+    <h3>Formulário de Cadastro Estudantes</h3>
+    <form action="listaEstudantes.html" method="post">
+        <label for="">Nome:</label><input type="text" name="nome" placeholder="Escreva o seu nome..." /><br>
+        <label for="">Idade: </label><input type="number" placeholder="Esccreva a sua idade..."><br>
+        <label for="">Morada:</label><input type="text" name="morada" placeholder="Escreva a sua morada..."><br>
+        <label for="">Imagem:</label><input type="file" name="imagem" ><br>
+        <input type="submit" value="Cadastrar">
+    </form>
 </body>
 </html>
