@@ -3,6 +3,7 @@
 <head>
     
     <title>EIM11</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -14,15 +15,15 @@
         <label for="">Nome:</label><input type="text" name="nome" placeholder="Escreva o seu nome..." /><br>
         <label for="">Idade: </label><input type="number" placeholder="Esccreva a sua idade..."><br>
         <label for="">Morada:</label><input type="text" name="morada" placeholder="Escreva a sua morada..."><br>
-        <label for="">Genero:</label>
+        <label  class="class_label" for="">Genero:</label>
           Masculino: <input type="radio" value="masculino" name="genero" > | Femenino: <input type="radio" value="femenino" name="genero" ><br>
         
-        <label for="">Idiomas:</label>
+        <label class="class_label" for="">Idiomas:</label>
             Português: <input type="checkbox" value="portugues" name="idioma" id=""> | 
             Inglês: <input type="checkbox" value="Inglês" name="idioma" id=""> | 
             Espanhol: <input type="checkbox" value="espanhol" name="idioma" id=""><br> 
 
-        <label for="">Imagem:</label><input type="file" name="imagem" ><br>
+        <label id="label_img" for="">Imagem:</label><input type="file" name="imagem" ><br>
         <input type="submit" value="Cadastrar">
     </form>
 </body>
