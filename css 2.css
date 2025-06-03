@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+h3{
+    color: white;
+    text-shadow:1px 1px red;
+}
+table{
+    color: white;
+}
+td{
+    color: white;
+    text-shadow: red
+}
+label{
+    color: white;
+    text-shadow: 1px 1px red;
+}
