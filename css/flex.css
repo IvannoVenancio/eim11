@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items: stretch;
+    background: #ccc;
+}
+
+.container > div{
+    margin: 10px;
+    line-height: 75px
+}
