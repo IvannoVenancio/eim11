@@ -8,3 +8,14 @@
     margin: 10px;
     line-height: 75px
 }
+
+#texto{
+    
+    background: #cecece;
+    text-align: justify;
+}
+
+#texto > p{
+    text-align: center;
+    margin: 1px 30%;
+}

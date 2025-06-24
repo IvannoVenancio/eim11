@@ -7,9 +7,19 @@ services:
       dockerfile: Dockerfile
     container_name: eim11_app
     ports:
-      - 3000:3000
+      - 3001:3000
     volumes:
       - ./:/home/app/
+    networks:
+      - app-network
+
+
+  nginx:
+    image: nginx
+    ports:
+      - "3000:80"
+    volumes:
+      - ./:/usr/share/nginx/html
     networks:
       - app-network
     
